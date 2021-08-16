@@ -29,7 +29,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 _addon.name = 'STAT'
 _addon.version = '1.0'
-_addon.author = 'Nitrous (Shiva),'Chev (Asura)'
+_addon.author = 'Nitrous (Shiva) STNA 1.08','Chev (Asura) STAT 1.0'
 _addon.command = 'stat'
 
 require('tables')
@@ -38,15 +38,15 @@ res = require('resources')
 
 windower.register_event('load', function()
     statSpell = { 
-        ['paralysis']='Paralyna',
-        ['doom']='Cursna',
+        	['paralysis']='Paralyna',
+        	['doom']='Cursna',
 		['curse']='Cursna',
-        ['silence']='Silena',
-        ['plague']='Viruna',
-        ['disease']='Viruna',
-        ['petrification']='Stona',
-        ['poison']='Poisona',
-        ['blindness']='Blindna',
+       		['silence']='Silena',
+       		['plague']='Viruna',
+     		['disease']='Viruna',
+     		['petrification']='Stona',
+      		['poison']='Poisona',
+        	['blindness']='Blindna',
 		['charm']='Repose',
 		['charm']='Repose',
 		['Requiem']='Erase',
@@ -79,20 +79,20 @@ windower.register_event('load', function()
 		['slow']='Erase',
 		['Helix']='Erase',
 		['Elegy']='Erase'
-		
-		
+			
     }
+		
     --You may change this priority as you see fit this is my personal preference		
     priority = T{}
-    priority[1] = 'charm'
-    priority[2] = 'doom'
-    priority[3] = 'curse'
-    priority[4] = 'petrification'
-    priority[5] = 'Paralysis'
-    priority[6] = 'plague'
-    priority[7] = 'silence'
-    priority[8] = 'blindness'
-    priority[9] = 'poison'
+	priority[1] = 'charm'
+	priority[2] = 'doom'
+	priority[3] = 'curse'
+	priority[4] = 'petrification'
+	priority[5] = 'Paralysis'
+	priority[6] = 'plague'
+	priority[7] = 'silence'
+	priority[8] = 'blindness'
+	priority[9] = 'poison'
 	priority[10] = 'disease'
 	priority[11] = 'Requiem'
 	priority[12] = 'Nocturne'
@@ -124,9 +124,7 @@ windower.register_event('load', function()
 	priority[37] = 'slow'
 	priority[38] = 'Helix'
 	priority[39] = 'Elegy'
-	
-	
-	
+
     statusTable = S{}
 end)
 
