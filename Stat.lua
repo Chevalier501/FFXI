@@ -25,7 +25,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ]]
---Many thanks to Nitrous for the oririnal code of STNA 
+--Many thanks to Nitrous for the oririnal code of STNA and Akirane for his sage advice
 
 _addon.name = 'STAT'
 _addon.version = '1.0'
