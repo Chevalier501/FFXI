@@ -25,11 +25,11 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ]]
-
+--Many thanks to Nitrous for the oririnal code of STNA 
 
 _addon.name = 'STAT'
 _addon.version = '1.0'
-_addon.author = 'Nitrous (SHIVA),'Chev (Asura)'
+_addon.author = 'Nitrous (Shiva),'Chev (Asura)'
 _addon.command = 'stat'
 
 require('tables')
