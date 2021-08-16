@@ -29,7 +29,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 _addon.name = 'STAT'
 _addon.version = '1.0'
-_addon.author = 'Chev (Asura)'
+_addon.author = 'Nitrous (SHIVA),'Chev (Asura)'
 _addon.command = 'stat'
 
 require('tables')
