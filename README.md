@@ -1,9 +1,9 @@
-# STAT
+# Stat
 An addon that enables 1 macro status removal with the help of send.
 
 STAT is a heavily modified version of STNA for FFXI (https://github.com/nitrous24/Lua/tree/4.1/addons/stna)
 
-Since it's so heavily modified I felt a the original name did not cover it anymore.
+Since it's so heavily modified I felt the original name did not cover it anymore.
 
 Where STNA only dealth with -na spells STAT deals with ALL spells that a whm can remove through -NA spells and ERASE
 
